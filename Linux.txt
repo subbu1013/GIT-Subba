@@ -1,0 +1,18 @@
+1) Alias --- Alias command instructs the shell to replace one string with another string while executing the commands.
+When we often have to use a single big command multiple times, in those cases, we create something called as alias for that command. 
+
+Alias is like a shortcut command which will have same functionality as if we are writing the whole command.
+
+alias <name>='command'
+alias cd='cd Desktop'
+
+From the above example instead of entering the command "cd Desktop" you just need to enter "cd" which will performs the same action.
+
+To see all the alias, just enter alias or alias -p
+to unalias then please unalias <name>
+
+How to permanently store aliases across sessions? 
+We can store aliases in shell configuration files. For example for Bash Shell, we can write in ~/.bashrc.
+
+2) apropos ---- Linux/Unix comes with a huge number of commands and thus it become quite difficult sometimes to remember each and every command. apropos command becomes useful in such cases. apropos command helps the user when they don’t remember the exact command but knows a few keywords related to the command that define its uses or functionality. It searches the Linux man page with the help of the keyword provided by the user to find the command and its functions.
+
